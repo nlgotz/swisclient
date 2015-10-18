@@ -6,7 +6,7 @@ SwisClient is a Python class that allows the end user to interact with the Solar
 How to Use
 ----------
 
-Example:
+Example::
 
     import swisclient
 
