@@ -6,7 +6,7 @@ SwisClient is a Python class that allows the end user to interact with the Solar
 How to Use
 ----------
 
-Example:
+Example:::
     import swisclient
 
     # Create connection to SolarWinds Orion Server
@@ -14,7 +14,7 @@ Example:
     swis = swisclient.SwisClient("server", "username", "password")
 
     # Add current node to NCM
-    
+
     try:
         ncm = swis.invoke("Cirrus.Nodes", "AddNodetoNCM", 1)
     except Exception as e:
